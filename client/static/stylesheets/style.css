@@ -1,0 +1,31 @@
+body {
+	background-color: darkgrey;
+}
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#login, #register {
+	display: inline-block;
+	margin: 30px;
+	padding: 20px;
+	width: 200px;
+	height: auto;
+	vertical-align: top;
+
+}
+
+
+label{
+	display: inline-block;
+}
+
+input, textarea {
+	display: block;
+}
+
+button {
+	margin: 10px 0;
+}
